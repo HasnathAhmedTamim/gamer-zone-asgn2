@@ -262,14 +262,22 @@ img {
 }
 .first-icon-container {
   display: flex;
+  align-items: center;
+  border: 1px darkblue solid;
+  justify-content: space-between;
+  padding: 150px;
+  gap: 100px;
 }
 .second-icon-container {
   display: flex;
   align-items: center;
+  border: 1px darkblue solid;
+  justify-content: space-around;
+  padding: 150px;
 }
 .sixth-section {
   display: grid;
-  gap: 100px;
+  gap: 10px;
   border: 1px saddlebrown solid;
   justify-content: center;
   padding: 100px;
