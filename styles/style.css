@@ -130,7 +130,7 @@ span {
 img {
   width: 100%;
 }
-.container{
+.container {
   display: flex;
 }
 .sec-lf {
@@ -169,9 +169,8 @@ img {
   line-height: normal;
 }
 .third-container {
-  display: grid;
   margin: 100px;
-  
+
   align-items: center;
 }
 .card {
@@ -180,22 +179,25 @@ img {
   flex-shrink: 0;
 }
 .cap-cls {
+  margin-top: 5px;
   color: #534c64;
   font-family: Work Sans;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.875rem; /* 150% */
 }
 .card-container {
   display: flex;
   justify-content: center;
   gap: 50px;
-  
-  padding: 100px;
+
+  padding: 50px;
   /* padding: 100px;
   margin: 0 auto; */
   text-align: left;
+}
+.card-container img {
+  width: 80%;
 }
 .feature-title {
   text-align: right;
@@ -264,15 +266,15 @@ img {
   align-items: center;
   /* border: 1px darkblue solid; */
   justify-content: space-between;
-  padding: 0 150px;
-  gap: 100px;
+  padding: 0 10px;
+  gap: 10px;
 }
 .second-icon-container {
   display: flex;
   align-items: center;
   /* border: 1px darkblue solid; */
   justify-content: space-around;
-  padding: 0 150px;
+  padding: 0 15px;
 }
 .sixth-section {
   display: grid;
@@ -376,5 +378,75 @@ footer p {
 .hide {
   display: none;
 }
-@media screen and(max-width:576px) {
+@media screen and (max-width: 576px) {
+  .nav-head,
+  .left-header,
+  .ul-cls {
+    flex-direction: column;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .third-header-text {
+    color: #0b0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .funny-span {
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .third-container {
+    /* margin: 100px; */
+    margin: 56px;
+
+    align-items: center;
+  }
+  .ul-cls2 {
+    color: #534c64;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    text-align: center;
+    flex-direction: column;
+  }
+  .card {
+    width: 20.375rem;
+    height: 22rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .nav-head,
+  .left-header,
+  .ul-cls {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .card {
+    width: 10.375rem;
+    height: 25rem;
+    flex-shrink: 0;
+  }
 }
