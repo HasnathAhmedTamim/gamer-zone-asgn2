@@ -268,21 +268,23 @@ img {
   display: flex;
   flex-wrap: wrap;
   border: 1px black solid;
-  background-color: #4ec5f7;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
   margin-top: 100px;
   padding-bottom: 100px;
 }
-.first-icon-container{
-  
+.first-icon-container {
 }
-.second-icon-container{
+.second-icon-container {
   /* border: 3px solid red; */
   position: relative;
   left: 10%;
 }
 
-
- footer img {
+footer img {
   width: 4.5rem;
   height: 2.5rem;
 }
@@ -384,7 +386,7 @@ footer p {
     color: #0b0223;
     text-align: center;
     font-family: Work Sans;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -425,15 +427,15 @@ footer p {
     flex-direction: column;
   }
   .card {
-    width: 20.375rem;
+    width: 10.375rem;
     height: 22rem;
   }
   .fifth-section img {
   }
   img {
-    width: 50%;
+    width: 100%;
     position: relative;
-    left: 156px;
+    left: 6px;
   }
   .special-img {
     width: 10.90625rem;
@@ -475,6 +477,39 @@ footer p {
     padding: 42px;
     line-height: 1.875rem;
   }
+
+  .second-icon-container {
+    /* border: 3px solid red; */
+
+    border: 3px solid red;
+    width: 0;
+  }
+  .first-icon-container {
+    padding: 67px;
+    margin: 0 auto;
+  }
+  #icon {
+    position: relative;
+    width: 80%;
+    left: 2px;
+  }
+  #icon-cls {
+    gap: 5px;
+    border-radius: 3rem;
+    background-color: #fff;
+    /* background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%)); */
+    padding: 1rem;
+    /* align-items: flex-start; */
+    color: #0b0223;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 28px;
+    margin-left: -20px;
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .nav-head,
@@ -495,4 +530,12 @@ footer p {
     padding: 2px;
     flex-direction: column;
   }
+  .sixth-section {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px black solid;
+    
+    margin-top: 47px;
+    padding-bottom: 100px;
+}
 }
