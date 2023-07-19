@@ -237,12 +237,11 @@ img {
   right: 6.25rem;
 }
 #icon {
-  width: 1.7rem;
-  height: 1.7rem;
+  width: 2rem;
+  height: 2rem;
   flex-shrink: 0;
 }
 #icon-cls {
-  
   border-radius: 3rem;
   background-color: #fff;
   /* background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%)); */
@@ -251,24 +250,35 @@ img {
 
   color: #0b0223;
 
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   margin-top: 10px;
-  
 }
 #icon-cls:hover {
   color: #ff42a5;
   border: #ff42a5 solid;
 }
+.first-icon-container {
+  display: flex;
+}
+.second-icon-container {
+  display: flex;
+  align-items: center;
+}
 .sixth-section {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  row-gap: 1.69rem;
-  padding: 100px;
+  gap: 100px;
+  border: 1px saddlebrown solid;
   justify-content: center;
-  gap: 1.69rem;
+  padding: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  margin-bottom: 100px;
 }
 /* .hide {
   display: none;
