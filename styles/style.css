@@ -126,13 +126,12 @@ span {
   border-radius: 3rem;
   background: #4ec5f7;
 }
-.second-section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: space-evenly;
-}
+
 img {
   width: 100%;
+}
+.container{
+  display: flex;
 }
 .sec-lf {
   background-image: url("../images/Group\ 14.png");
@@ -160,7 +159,7 @@ img {
   font-weight: 700;
   line-height: normal;
 }
-.third-headertext {
+.third-header-text {
   color: #0b0223;
   text-align: center;
   font-family: Work Sans;
@@ -172,7 +171,7 @@ img {
 .third-container {
   display: grid;
   margin: 100px;
-  border: 1px solid saddlebrown;
+  
   align-items: center;
 }
 .card {
@@ -192,7 +191,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 50px;
-  border: 1px solid darkblue;
+  
   padding: 100px;
   /* padding: 100px;
   margin: 0 auto; */
@@ -374,6 +373,8 @@ footer p {
   justify-content: space-evenly;
   padding: 20px;
 }
-/* .hide {
+.hide {
   display: none;
-} */
+}
+@media screen and(max-width:576px) {
+}
