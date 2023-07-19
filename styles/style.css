@@ -312,7 +312,7 @@ footer img {
   color: #fff;
   text-align: center;
   font-family: Work Sans;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -326,7 +326,7 @@ footer img {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   font-family: Work Sans;
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -334,6 +334,12 @@ footer img {
 .footer-cls {
   background: #0b0223;
   padding: 100px 0px;
+}
+footer a {
+  color: floralwhite;
+}
+.footer-content2 a {
+  color: rgba(255, 255, 255, 0.6);
 }
 footer h2 {
   color: #fff;
@@ -346,25 +352,23 @@ footer h2 {
 .footer-content1 {
   justify-content: space-evenly;
   padding: 20px;
- 
+
   text-align: center;
 }
 .footer-content2 {
   justify-content: space-evenly;
   padding: 20px;
-  
 }
 
 footer p {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   font-family: Work Sans;
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   padding: 20px;
- 
 }
 .footer-icon {
   justify-content: space-evenly;
