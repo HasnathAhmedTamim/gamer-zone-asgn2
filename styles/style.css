@@ -398,8 +398,51 @@ footer p {
   background-color: rgba(14, 13, 13, 0.103);
 }
 @media screen and (max-width: 576px) {
+  body{
+    width: 100% !important;
+  }
+  header{
+    max-width: 100%;
+  }
+  #one{
+    font-size: 1.8rem;
+  }
+  .sec-lf h2{
+    font-size: 1.5rem !important;
+  }
+  .sec-lf span{
+    font-size: 2rem !important;
+  }
+  .green-dot::after{
+    font-size: 2rem !important;
+  }
+  .card{
+    width: 100% !important;
+  }
+  .feature-content h3{
+    font-size: 2rem;
+
+    
+  }
+  .feature-content p{
+    font-size: 1.2rem;
+
+    
+  }
+  .second-icon-container{
+    position: relative;
+    left: 18%;
+
+    width: 64% !important;
+  }
+  #icon-cls{
+    width: 100% !important;
+  }
+  a{
+    font-size: 1rem;
+  }
   .nav-head,
-  .left-header,
+  
   .ul-cls {
     flex-direction: column;
   }
@@ -433,6 +476,16 @@ footer p {
 
     align-items: center;
   }
+  .footer-content1 ul li a{
+    font-size: 0.6rem;
+  }
+  .footer-icon a img{
+    width: 1.2rem;
+    padding: 0.6rem;
+  }
+  .footer-content2 ul li a{
+    font-size: 0.6rem;
+  }
   .ul-cls2 {
     color: #534c64;
     text-align: center;
@@ -453,7 +506,7 @@ footer p {
   }
   .card {
     width: 10.375rem;
-    height: 22rem;
+    height: 28rem;
   }
   .fifth-section img {
   }
@@ -465,7 +518,7 @@ footer p {
   .special-img {
     width: 10.90625rem;
     top: 228px;
-    left: 216px;
+    left: 100px;
     height: 11.81769rem;
     position: relative;
     flex-shrink: 0;
