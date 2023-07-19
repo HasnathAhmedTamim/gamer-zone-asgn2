@@ -137,7 +137,8 @@ img {
 .sec-lf {
   background-image: url("../images/Group\ 14.png");
   background-repeat: no-repeat;
-  margin: 100px;
+
+  margin-bottom: 100px;
   width: 100%;
 
   text-align: center;
@@ -148,7 +149,32 @@ img {
   align-items: center;
   padding: 100px;
 }
-
-.hide {
-  display: none;
+.funny-span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
+.third-headertext {
+  color: #0b0223;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.third-container{
+  display: grid;
+  margin: 100px;
+  border: 1px solid saddlebrown;
+  align-items: center;
+}
+/* .hide {
+  display: none;
+} */
