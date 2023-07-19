@@ -294,12 +294,12 @@ footer img {
 }
 .footer-section{
   border: 1px solid saddlebrown;
-  padding: 0 200px;
-  align-items: center;
-  margin-left: 300px;
+  /* padding: 0 200px; */
+  text-align: center;
+  /* margin-left: 300px; */
 }
 .footer-cls {
-  padding: 200px;
+  
   background: #0b0223;
 }
 footer h2 {
@@ -310,8 +310,10 @@ footer h2 {
   font-weight: 700;
   line-height: normal;
 }
-.footer-content{
+.footer-content1 {
   color: white;
+  text-align: center ;
+  
 }
 .footer-content2{
   color: white;
