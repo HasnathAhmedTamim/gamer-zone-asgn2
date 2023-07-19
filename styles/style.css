@@ -267,7 +267,7 @@ img {
 .sixth-section {
   display: flex;
   flex-wrap: wrap;
-  border: 1px black solid;
+  
   background: linear-gradient(
     90deg,
     rgba(255, 66, 165, 0.03) 0%,
